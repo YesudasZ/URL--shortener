@@ -21,7 +21,6 @@ passport.use(
                         name: profile.displayName,
                     });
                 }
-
                 done(null, user);
             } catch (err) {
                 done(err, null);
