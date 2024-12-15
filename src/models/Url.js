@@ -47,7 +47,7 @@ const UrlSchema = new mongoose.Schema({
         type: Number,
         default: 0,
     },
-    redirectLogs: [RedirectLogSchema], 
+    redirectLogs: [RedirectLogSchema],
     createdAt: {
         type: Date,
         default: Date.now,
